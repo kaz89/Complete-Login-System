@@ -1,0 +1,70 @@
+body {
+	background-color: white;
+}
+
+form {
+	
+	text-align: center;
+	box-sizing: content-box;
+	font:bold;
+	
+}
+
+h1 {
+	text-align: center;
+	color:#48D1CC;
+}
+
+input[type=text],[type=password] {
+ width:20%;
+ padding: 8px ;
+ margin: 8px 0;
+ display: inline-block;
+ border: 1px solid #ccc;
+ box-sizing: border-box;
+}
+.usr,.paswd{
+	display: block;
+}
+
+input[type=submit] {
+	background-color: #48D1CC;
+	color: white;
+	width: 20%;
+	padding:8px;
+	border: none;
+}
+input[type=submit]:hover{
+	opacity:0.8;
+}
+a:link,a:visited{
+	background-color:#F91C57;
+	color:white;
+	padding:5px;
+	text-align:center;
+	display:inline-block;
+	text-decoration:none;
+}
+a:link:hover{
+	opacity:0.8;
+}
+.msg,.msg2{
+	color:white;
+	font-style:normal;
+	font-size:20px;
+	text-align:center;
+	width:500px;
+	height:25px;
+	background-color:#48D1CC;
+}
+.msg3{
+	color:#48D1CC;
+	font:bold;
+	font-size:50px;
+}
+.footer{
+	position:fixed;
+	bottom:0;
+	left:0;
+}
+	
